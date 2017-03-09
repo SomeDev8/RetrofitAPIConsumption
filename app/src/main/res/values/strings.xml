@@ -1,0 +1,21 @@
+<resources>
+    <!-- General Strings-->
+    <string name="app_name">AndroidTest</string>
+
+    <!-- Main Screen Strings -->
+    <string name="activity_main_title">Coding Tasks</string>
+    <string name="company_photo_content_description">AppPartner Company Photo</string>
+    <string name="chat_button">CHAT</string>
+    <string name="login_button">LOG IN</string>
+    <string name="animation_button">ANIMATION</string>
+    <string name="alert_dialog_title">"EndPoint Response: "</string>
+    <string name="alert_dialog_button">Ok</string>
+    <string name="invalid_message">Invalid Login Information, Please Try Again</string>
+    <string name="Login_title">Log in</string>
+    <string name="chat_title">Chat</string>
+    <string name="animation_title">Animation</string>
+    <string name="fade_button">FADE</string>
+    <string name="username_edit">Username</string>
+    <string name="password_edit">Password</string>
+
+</resources>

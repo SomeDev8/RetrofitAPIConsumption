@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/company_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/image_margin_bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_company_photo" />
+
+        <Button
+            android:id="@+id/chat_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fade_button_height"
+            android:layout_marginBottom="@dimen/button_margin_bottom"
+            android:layout_marginLeft="@dimen/login_side_margins"
+            android:layout_marginRight="@dimen/login_side_margins"
+            android:background="@color/button_blue"
+            android:onClick="onChatClicked"
+            android:text="@string/chat_button"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="@dimen/button_margin_bottom"
+            android:layout_marginLeft="@dimen/login_side_margins"
+            android:layout_marginRight="@dimen/login_side_margins"
+            android:background="@color/button_orange"
+            android:onClick="onLoginClicked"
+            android:text="@string/login_button"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/animation_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fade_button_height"
+            android:layout_marginBottom="@dimen/animation_button_margin_bottom"
+            android:layout_marginLeft="@dimen/login_side_margins"
+            android:layout_marginRight="@dimen/login_side_margins"
+            android:background="@color/button_mango"
+            android:onClick="onAnimationClicked"
+            android:text="@string/animation_button"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>
